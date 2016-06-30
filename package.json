@@ -11,8 +11,7 @@
     "lint": "esw test",
     "lint:watch": "npm run lint -- --watch",
     "start": "npm-run-all lint test",
-    "test": "npm-run-all build:test test:start",
-    "test:start": "mocha build/tests.js"
+    "test": "mocha --compilers js:babel-register"
   },
   "author": "",
   "license": "ISC",

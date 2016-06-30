@@ -37,6 +37,18 @@ describe( "Cross Origin Requests", () => {
 	});
 });
 
+describe( "Root API Requests", () => {
+	let result;
+
+	before(() => {
+		result = get(url);
+	});
+
+	it( "should return 200 HTTP status code", () => {
+		return assert(result, "status").to.equal(200);
+	});
+});
+
 // Useful functions
 let post = (url, data) => {
 	return request.post(url)

@@ -53,6 +53,18 @@ describe("Cross Origin Requests", function () {
 	});
 });
 
+describe("Root API Requests", function () {
+	var result = void 0;
+
+	before(function () {
+		result = get(url);
+	});
+
+	it("should return 200 HTTP status code", function () {
+		return assert(result, "status").to.equal(200);
+	});
+});
+
 // Useful functions
 var post = function post(url, data) {
 	return request.post(url).set("Content-Type", contentType).set("Accept", accept).send(data).end();
