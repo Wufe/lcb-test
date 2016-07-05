@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">Test</h1>
+          <h3 class="report-date">Tuesday, July 5 2016, 10:12am</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">1.426<span>S</span></li>
+              <li class="qs-item summary-suites" title="Suites">5</li>
+              <li class="qs-item summary-tests" title="Tests">18</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">18</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">1.426<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">18</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">18</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="265d3b8d-856d-4c06-bcae-eed02f9c8d56" class="suite has-tests has-passed">
+            <h3 class="suite-title">Cross Origin Requests</h3>
+            <h5 class="suite-filename">\test\api.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="265d3b8d-856d-4c06-bcae-eed02f9c8d56" class="suite-chart" width="50" height="50" data-total-passes="4" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">2 ms</li>
+                <li class="suite-summary-item tests">4</li>
+                <li class="suite-summary-item passed">4</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#265d3b8d-856d-4c06-bcae-eed02f9c8d56-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="265d3b8d-856d-4c06-bcae-eed02f9c8d56-test-list" class="list-group test-list collapse in">
+                    <div id="5844d2a8-102c-444f-b00a-8cc49b45cc6c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should have all CORS headers
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#5844d2a8-102c-444f-b00a-8cc49b45cc6c > .test-code.collapse">Code</button>
+              <span class="test-duration fast">2 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">allCORSHeaders(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="29765b96-c15c-4ecf-b482-c5240a9a9db2" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should allow any origin
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#29765b96-c15c-4ecf-b482-c5240a9a9db2 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">CORSOrigin(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="57de7304-e184-4bce-95b6-caabeb1c24b3" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 200 status code
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#57de7304-e184-4bce-95b6-caabeb1c24b3 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">status200(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="892211e5-b6e1-4ea7-a0f8-c1b24843a56f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return a json object
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#892211e5-b6e1-4ea7-a0f8-c1b24843a56f > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">jsonResponse(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="6828a1be-1d86-4773-8b81-f3177c21b618" class="suite has-tests has-passed">
+            <h3 class="suite-title">Root API Requests</h3>
+            <h5 class="suite-filename">\test\api.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="6828a1be-1d86-4773-8b81-f3177c21b618" class="suite-chart" width="50" height="50" data-total-passes="4" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">4</li>
+                <li class="suite-summary-item passed">4</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#6828a1be-1d86-4773-8b81-f3177c21b618-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="6828a1be-1d86-4773-8b81-f3177c21b618-test-list" class="list-group test-list collapse in">
+                    <div id="d56ff770-43f0-4eab-ab21-e75ea7432241" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should have all CORS headers
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d56ff770-43f0-4eab-ab21-e75ea7432241 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">allCORSHeaders(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="3aaf34ca-8e02-402e-92bb-7938ffd02044" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should allow any origin
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3aaf34ca-8e02-402e-92bb-7938ffd02044 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">CORSOrigin(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="c2d2f7b2-3948-41c2-a355-87ca4174db36" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 200 status code
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c2d2f7b2-3948-41c2-a355-87ca4174db36 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">status200(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="a7c165fd-cb4b-464d-9ca4-c4b22873296d" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return a json object
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a7c165fd-cb4b-464d-9ca4-c4b22873296d > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">jsonResponse(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="a58166ef-86b8-43fa-b7b4-0d40526b6421" class="suite">
+            <h3 class="suite-title">Automated Server-Side Test</h3>
+            <h5 class="suite-filename">\test\api.test.js</h5>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="7fea049a-6251-40a7-9e8e-c881dafa2728" class="suite has-tests has-passed">
+            <h3 class="suite-title">Logged User Access Functions</h3>
+            <h5 class="suite-filename">\test\api.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="7fea049a-6251-40a7-9e8e-c881dafa2728" class="suite-chart" width="50" height="50" data-total-passes="6" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">6</li>
+                <li class="suite-summary-item passed">6</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#7fea049a-6251-40a7-9e8e-c881dafa2728-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="7fea049a-6251-40a7-9e8e-c881dafa2728-test-list" class="list-group test-list collapse in">
+                    <div id="0d42df63-768d-477e-82b8-839076955cea" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should have all CORS headers
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0d42df63-768d-477e-82b8-839076955cea > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">allCORSHeaders(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="7f607013-40ed-4681-a38a-fab68b3710e7" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should allow any origin
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#7f607013-40ed-4681-a38a-fab68b3710e7 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">CORSOrigin(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="5f60bf7f-c71e-4fbe-9736-9a0c74ff8044" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 200 status code
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#5f60bf7f-c71e-4fbe-9736-9a0c74ff8044 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">status200(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="ad9034c9-a742-444e-9c1f-a918519ec72a" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return a json object
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ad9034c9-a742-444e-9c1f-a918519ec72a > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">jsonResponse(result, done);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e669ce24-6d54-4927-96db-5386a18ab50d" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should be a failure request
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e669ce24-6d54-4927-96db-5386a18ab50d > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> (<span class="hljs-number">0</span>, _chai.expect)(result).to.have.deep.property(<span class="hljs-string">"body.result"</span>).to.equals(<span class="hljs-string">"fail"</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="434ad0ae-a8ca-45b7-ab1a-991fb4c0f07d" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should have error code -29 ( not authenticated )
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#434ad0ae-a8ca-45b7-ab1a-991fb4c0f07d > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> (<span class="hljs-number">0</span>, _chai.expect)(result).to.have.deep.property(<span class="hljs-string">"body.code"</span>).to.equals(-<span class="hljs-number">29</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="2a9769cb-7889-4e88-ad1a-e0a50ead8972" class="suite has-suites has-tests has-passed">
+            <h3 class="suite-title">Authentication</h3>
+            <h5 class="suite-filename">\test\server.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="2a9769cb-7889-4e88-ad1a-e0a50ead8972" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">278 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#2a9769cb-7889-4e88-ad1a-e0a50ead8972-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="2a9769cb-7889-4e88-ad1a-e0a50ead8972-test-list" class="list-group test-list collapse in">
+                    <div id="31456ce3-d115-4dc7-aec1-122b3192993e" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should create a test account
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#31456ce3-d115-4dc7-aec1-122b3192993e > .test-code.collapse">Code</button>
+              <span class="test-duration slow">278 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> _ref.apply(<span class="hljs-keyword">this</span>, <span class="hljs-built_in">arguments</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+              <section class="suite-wrap">
+          <div id="832dabd4-642a-4195-9841-ac6966a2143f" class="suite has-tests has-passed">
+            <h3 class="suite-title">Basic auth</h3>
+            <h5 class="suite-filename">\test\server.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="832dabd4-642a-4195-9841-ac6966a2143f" class="suite-chart" width="50" height="50" data-total-passes="3" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">659 ms</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">3</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#832dabd4-642a-4195-9841-ac6966a2143f-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="832dabd4-642a-4195-9841-ac6966a2143f-test-list" class="list-group test-list collapse in">
+                    <div id="5f298335-8a92-44f8-be14-494c075316e9" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should fail login with wrong password
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#5f298335-8a92-44f8-be14-494c075316e9 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">233 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> _ref.apply(<span class="hljs-keyword">this</span>, <span class="hljs-built_in">arguments</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="a6c76e70-00b5-4a7d-a35b-9bf2d7aec4d9" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should fail login with wrong email
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a6c76e70-00b5-4a7d-a35b-9bf2d7aec4d9 > .test-code.collapse">Code</button>
+              <span class="test-duration medium">38 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> _ref.apply(<span class="hljs-keyword">this</span>, <span class="hljs-built_in">arguments</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="bf11a23e-1235-4ab6-bc3b-cd2f17b455c4" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should pass login with right credentials
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#bf11a23e-1235-4ab6-bc3b-cd2f17b455c4 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">388 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> _ref.apply(<span class="hljs-keyword">this</span>, <span class="hljs-built_in">arguments</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
